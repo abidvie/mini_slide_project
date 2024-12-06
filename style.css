@@ -1,0 +1,50 @@
+html, body {
+    height: 100%; 
+ }
+
+.slide-show-container{
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:beige;
+
+}
+.slide-show-elements{
+    
+     
+   
+
+}
+.slide-show-element{
+   
+    text-align:center;
+     position:absolute; 
+     transform:translate(-50%,-50%) scale(0);  
+   
+     border:solid 2px black;
+   
+    transition:1000ms;
+
+
+   
+
+
+}
+.slide-show-element i,h2{
+  
+    font-size:100px;
+    color:coral;
+
+}
+
+.current{
+    
+     transform:translate(-50%,-50%) scale(1);  
+    
+  
+    transition:1000ms;
+}
+
+
+
